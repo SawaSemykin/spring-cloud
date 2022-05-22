@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: reservation-services
+  jpa:
+    hibernate:
+      ddl-auto: none
+  config:
+    import: configserver:http://localhost:9000
